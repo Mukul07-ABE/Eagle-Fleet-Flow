@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drivers - Eagle Fleet Flow</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    margin:0;
+    padding:0;
+}
+
+header{
+    background:#1e73ff;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    padding:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:20px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    background:#1e73ff;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+.back{
+    display:inline-block;
+    margin-top:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Drivers Management</h1>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Add Driver</h2>
+
+        <input type="text" placeholder="Driver Name">
+
+        <input type="text" placeholder="CDL Number">
+
+        <input type="date" placeholder="CDL Expiry">
+
+        <input type="date" placeholder="Medical Card Expiry">
+
+        <input type="date" placeholder="Work Permit Expiry">
+
+        <input type="date" placeholder="EPN Expiry">
+
+        <input type="date" placeholder="Clearinghouse Expiry">
+
+        <button>Add Driver</button>
+    </div>
+
+    <div class="card">
+        <h2>Driver Records</h2>
+        <p>No drivers added yet.</p>
+    </div>
+
+    <a class="back" href="index.html">⬅ Back to Dashboard</a>
+
+</div>
+
+</body>
+</html>
